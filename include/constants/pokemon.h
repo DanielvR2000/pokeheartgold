@@ -4,11 +4,11 @@
 // Value and data limits
 #define MAX_LEVEL             100
 #define MAX_MON_MOVES           4
-#define MAX_EV                100
+#define MAX_EV                100 // Maximu EV via Vitamins/Items
 #define MAX_EV_SUM            510
-#define MAX_LEARNED_MOVES      22
+#define MAX_LEARNED_MOVES      22 // Could be max. nr of levelup mo
 
-#define NUM_BOXES              18
+#define NUM_BOXES              18 // Increase to 30
 #define MONS_PER_BOX           30
 #define BOX_NAME_LENGTH        20
 
@@ -32,7 +32,8 @@
 #define TYPE_ICE              15
 #define TYPE_DRAGON           16
 #define TYPE_DARK             17
-#define NUMBER_OF_MON_TYPES   18
+#define TYPE_FAIRY            18
+#define NUMBER_OF_MON_TYPES   19
 
 // Type effectiveness
 #define TYPE_MUL_NO_EFFECT          0
@@ -114,7 +115,7 @@
 #define NATURE_NUM      25
 
 #define FLAVOR_SPICY     0
-#define FLAVOR_DRY       1
+#define FLAVOR_DRY       1 // Rename to Salty?
 #define FLAVOR_SWEET     2
 #define FLAVOR_BITTER    3
 #define FLAVOR_SOUR      4
@@ -156,7 +157,7 @@
 #define NUM_BATTLE_STATS (NUM_STATS + 2) // includes Accuracy and Evasion
 
 // Shiny odds
-#define SHINY_ODDS 8 // Actual probability is SHINY_ODDS/65536
+#define SHINY_ODDS 16 // Actual probability is SHINY_ODDS/65536
 
 #define MON_DATA_PERSONALITY                      0
 #define MON_DATA_PARTY_LOCK                       1
@@ -279,7 +280,7 @@
 #define MON_DATA_NICKNAME_2                     118 // ???
 #define MON_DATA_NICKNAME_3                     119 // ???
 #define MON_DATA_NICKNAME_4                     120
-#define MON_DATA_UNK_121                        121
+#define MON_DATA_UNK_121                        121 // Unused?
 #define MON_DATA_GAME_VERSION                   122
 #define MON_DATA_COOL_RIBBON                    123
 #define MON_DATA_COOL_RIBBON_GREAT              124
